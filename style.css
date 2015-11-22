@@ -38,7 +38,7 @@ ul {
   margin: 0 auto;
   max-width: 1000px;
   width: 100%;
-    border: red 1px solid;
+  border: red 1px solid;
 }
 
 #navbar-branding {
@@ -54,15 +54,16 @@ ul {
   border: 1px green solid;
 }
 
-#nav-links li {
-  position: relative;
-  padding: 0;
-  margin: 0;
-  border: green 1px solid;
+#nav-links li:hover {
+  background-image: linear-gradient(180deg, rgb(232, 88, 57) 39%, rgb(252, 139, 104) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(232, 88, 57) 39%, rgb(252, 139, 104) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(232, 88, 57) 39%, rgb(252, 139, 104) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(232, 88, 57) 39%, rgb(252, 139, 104) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(232, 88, 57) 39%, rgb(252, 139, 104) 100%);
 }
 
 #carousel {
-  position: relative;
+  float: left;
 }
 
 #carousel-right {
@@ -70,9 +71,9 @@ ul {
   flex-direction: column;
   justify-content: center;
   position: absolute;
-  top: 20%;
+  top: 19.8%;
   left: 50%;
-  height: 444px;
+  height: 445px;
   width: 50%; 
   background-image: linear-gradient(180deg, rgb(86, 75, 70) 12%, rgb(41, 36, 34) 100%);
   background-image: -moz-linear-gradient(top, rgb(86, 75, 70) 12%, rgb(41, 36, 34) 100%);
@@ -109,10 +110,11 @@ ul {
   border-width: 1px;
   border-color: rgb(231, 86, 55);
   border-radius: 5px;
-  background-image: linear-gradient(180deg, rgb(252,139,104) 12%, rgb(232,88,57) 88%);
-  background-image: -moz-linear-gradient(90deg, rgb(252,139,104) 12%, rgb(232,88,57) 88%);
-  background-image: -webkit-linear-gradient(90deg, rgb(252,139,104) 12%, rgb(232,88,57) 88%);
-  background-image: -ms-linear-gradient(90deg, rgb(252,139,104) 12%, rgb(232,88,57) 88%);
+  background-image: linear-gradient(180deg, rgb(232, 88, 57) 39%, rgb(252, 139, 104) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(232, 88, 57) 39%, rgb(252, 139, 104) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(232, 88, 57) 39%, rgb(252, 139, 104) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(232, 88, 57) 39%, rgb(252, 139, 104) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(232, 88, 57) 39%, rgb(252, 139, 104) 100%);
   opacity: 0.8;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.45);
   width: 250px;
@@ -122,12 +124,49 @@ ul {
   font-size: 2.5rem;
 }
 
+#section1 {
+  margin:0 auto;
+  max-width: 1000px;
+  width: 100%;
+}
 
+#section1-inner1 {
+  text-align: center;
+  margin-bottom: 4%;
+}
 
+#section1-inner1 h2 {
+  font-weight: 700;
+}
 
+#section1-inner1 h4 {
+  color: #cbbaaf;
+  font-weight: 700;
+}
 
+#section1 h5 {
+  font-weight: 700;
+}
 
+.stamp {
+  padding: 4%;
+  /*border: green 1px solid;*/
+}
 
+.stamp img {
+  float: left;
+}
 
+.stamp-inner {
+  /*border: purple 1px solid;*/
+}
 
+.stamp-inner a {
+  color: #ff9878;
+  font-weight: 700;
+}
+
+#upward-triangle {
+  margin-top: 3%;
+}
 

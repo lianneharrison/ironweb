@@ -38,7 +38,6 @@ ul {
   margin: 0 auto;
   max-width: 1000px;
   width: 100%;
-  border: red 1px solid;
 }
 
 #navbar-branding {
@@ -51,7 +50,6 @@ ul {
 
 #navbar-branding img {
   display: inline;
-  border: 1px green solid;
 }
 
 #nav-links li:hover {
@@ -71,16 +69,15 @@ ul {
   flex-direction: column;
   justify-content: center;
   position: absolute;
-  top: 19.8%;
+  top: 20%;
   left: 50%;
-  height: 445px;
+  height: 446px;
   width: 50%; 
   background-image: linear-gradient(180deg, rgb(86, 75, 70) 12%, rgb(41, 36, 34) 100%);
   background-image: -moz-linear-gradient(top, rgb(86, 75, 70) 12%, rgb(41, 36, 34) 100%);
   background-image: -webkit-linear-gradient(top, rgb(86, 75, 70) 12%, rgb(41, 36, 34) 100%);
   background-image: -o-linear-gradient(top, rgb(86, 75, 70) 12%, rgb(41, 36, 34) 100%);
   background-image: -ms-linear-gradient(top, rgb(86, 75, 70) 12%, rgb(41, 36, 34) 100%);
-
   color: #ffffff;
 }
 
@@ -150,7 +147,6 @@ ul {
 
 .stamp {
   padding: 4%;
-  /*border: green 1px solid;*/
 }
 
 .stamp img {
@@ -158,7 +154,7 @@ ul {
 }
 
 .stamp-inner {
-  /*border: purple 1px solid;*/
+  text-align: left;
 }
 
 .stamp-inner a {
@@ -168,5 +164,27 @@ ul {
 
 #upward-triangle {
   margin-top: 3%;
+  margin-bottom: -4.2%;
 }
+
+#section2 {
+  background-color: #ff9878;
+  height: 508px;
+}
+
+#section2 h2 {
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  margin: 3%;
+}
+
+.section2-inner {
+  width: 300px;
+  margin: 0;
+  padding: 0px;
+  background-color: #ffffff;
+}
+
+
 
